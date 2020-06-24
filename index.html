@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HexSchool-BMI</title>
+
+    <link rel="stylesheet" href="./css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <img src="./images/logo.png" alt="HexSchool-BMI" />
+        </nav>
+        <h1 class="title">大 AI 數據之 BMI 體重計</h1>
+      </div>
+    </header>
+    <section class="container bg-main">
+      <div class="calculator">
+        <div class="inputGroup">
+          <label for="height">身高 cm</label>
+          <input type="number" id="height" placeholder="請輸入身高" required />
+        </div>
+        <div class="inputGroup">
+          <label for="weight">體重 kg</label>
+          <input type="number" id="weight" placeholder="請輸入體重" required />
+        </div>
+        <button class="btn submit">確認</button>
+        <button class="btn reset">全部清除</button>
+      </div>
+    </section>
+    <section class="container">
+      <h2 class="title title-sm">BMI 記錄</h2>
+      <ul class="history">
+        <li class="historyItem historyItem-skinny">
+          <h3 class="historyItem_title">體重過輕</h3>
+          <div class="historyItem_text">
+            <p>BMI 00.00</p>
+            <p>height：180 cm</p>
+            <p>weight：60 kg</p>
+          </div>
+        </li>
+        <li class="historyItem historyItem-fit">
+          <h3 class="historyItem_title">健康體位</h3>
+          <div class="historyItem_text">
+            <p>BMI 00.00</p>
+            <p>height：180 cm</p>
+            <p>weight：70 kg</p>
+          </div>
+        </li>
+        <li class="historyItem historyItem-plump">
+          <h3 class="historyItem_title">體重過重</h3>
+          <div class="historyItem_text">
+            <p>BMI 00.00</p>
+            <p>height：180 cm</p>
+            <p>weight：80 kg</p>
+          </div>
+        </li>
+        <li class="historyItem historyItem-chubby">
+          <h3 class="historyItem_title">輕度肥胖</h3>
+          <div class="historyItem_text">
+            <p>BMI 00.00</p>
+            <p>height：180 cm</p>
+            <p>weight：90 kg</p>
+          </div>
+        </li>
+        <li class="historyItem historyItem-overweight">
+          <h3 class="historyItem_title">中度肥胖</h3>
+          <div class="historyItem_text">
+            <p>BMI 00.00</p>
+            <p>height：180 cm</p>
+            <p>weight：100 kg</p>
+          </div>
+        </li>
+        <li class="historyItem historyItem-obese">
+          <h3 class="historyItem_title">重度肥胖</h3>
+          <div class="historyItem_text">
+            <p>BMI 00.00</p>
+            <p>height：180 cm</p>
+            <p>weight：120 kg</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
